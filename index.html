@@ -40,7 +40,15 @@
                         </li>
                         <li class="flex items-center space-x-2">
                             <i class="fas fa-check-circle text-yellow-400"></i>
-                            <a href="#" onclick="openModal('project-3')" class="text-lg hover:text-yellow-400 transition-colors duration-300">salon de eventos</a>
+                            <a href="#" onclick="openModal('project-2')" class="text-lg hover:text-yellow-400 transition-colors duration-300">Global banquetes</a>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <i class="fas fa-check-circle text-yellow-400"></i>
+                            <a href="#" onclick="openModal('project-4')" class="text-lg hover:text-yellow-400 transition-colors duration-300">ERP</a>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <i class="fas fa-check-circle text-yellow-400"></i>
+                            <a href="#" onclick="openModal('project-6')" class="text-lg hover:text-yellow-400 transition-colors duration-300">ERP_MOVIL</a>
                         </li>
                        <!-- <li class="flex items-center space-x-2">
                             <i class="fas fa-check-circle text-yellow-400"></i>
@@ -145,10 +153,16 @@
             <div class="swiper-container slider">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="path_to_image_1.jpg" alt="Imagen del Proyecto 4" class="w-full h-auto">
+                        <img src="/resourses/ERP/imagen3.jpg" alt="Imagen del Proyecto 4" class="w-full h-auto">
                     </div>
                     <div class="swiper-slide">
-                        <img src="path_to_image_2.jpg" alt="Imagen del Proyecto 4" class="w-full h-auto">
+                        <img src="/resourses/ERP/imagen2.jpg" alt="Imagen del Proyecto 4" class="w-full h-auto">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/resourses/ERP/imagen1.jpg" alt="Imagen del Proyecto 4" class="w-full h-auto">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/resourses/ERP/imagen4.jpg" alt="Imagen del Proyecto 4" class="w-full h-auto">
                     </div>
                 </div>
                 <div class="swiper-button-next"></div>
@@ -157,11 +171,38 @@
             </div>
             <h3 class="text-xl font-bold mt-5">Título del Proyecto 4</h3>
             <p class="mt-2">Descripción del proyecto 4. Aquí puedes hablar más sobre los detalles de tu trabajo en este proyecto.</p>
-            <a href="https://github.com/usuario/proyecto4" target="_blank" class="text-blue-500 mt-3 inline-block">Ver en GitHub</a>
+            <a href="https://github.com/kevinkalvin62/erp-front" target="_blank" class="text-blue-500 mt-3 inline-block">Ver en GitHub</a>
             <button onclick="closeModal('project-4')" class="mt-5 p-2 bg-red-500 text-white rounded">Cerrar</button>
         </div>
     </div>
-
+    <!-- Modal para Proyecto 6 -->
+    <div id="modal-project-6" class="hidden fixed top-0 left-0 z-50 w-full h-full bg-black bg-opacity-50" onclick="closeModalOutside(event, 'project-4')">
+        <div class="w-11/12 md:w-4/5 lg:w-2/3 mx-auto mt-20 bg-white rounded-lg p-5" onclick="event.stopPropagation()">
+            <div class="swiper-container slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="/resourses/ERP_MOVIL/IMAGEN1.jpg" alt="Imagen del Proyecto 4" class="w-full h-auto">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/resourses/ERP_MOVIL/IMAGEN2.jpg" alt="Imagen del Proyecto 4" class="w-full h-auto">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/resourses/ERP_MOVIL/IMAGEN3.jpg" alt="Imagen del Proyecto 4" class="w-full h-auto">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/resourses/ERP_MOVIL/IMAGEN4.jpg" alt="Imagen del Proyecto 4" class="w-full h-auto">
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <h3 class="text-xl font-bold mt-5">Título del Proyecto 5</h3>
+            <p class="mt-2">Descripción del proyecto 5. Aquí puedes hablar más sobre los detalles de tu trabajo en este proyecto.</p>
+            <a href="https://github.com/kevinkalvin62/erp-front" target="_blank" class="text-blue-500 mt-3 inline-block">Ver en GitHub</a>
+            <button onclick="closeModal('project-6')" class="mt-5 p-2 bg-red-500 text-white rounded">Cerrar</button>
+        </div>
+    </div>
     <!-- Modal para Proyecto 5 -->
     <div id="modal-project-5" class="hidden fixed top-0 left-0 z-50 w-full h-full bg-black bg-opacity-50" onclick="closeModalOutside(event, 'project-5')">
         <div class="w-11/12 md:w-4/5 lg:w-2/3 mx-auto mt-20 bg-white rounded-lg p-5" onclick="event.stopPropagation()">
